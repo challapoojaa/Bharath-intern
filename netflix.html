@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-like Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+
+        header {
+            background-color: #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero {
+            position: relative;
+            height: 600px;
+            background: url('netflix-hero.jpg') center/cover no-repeat;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            text-decoration: none;
+            background-color: #e50914;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff1e2d;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        .feature {
+            flex: 0 0 30%;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            background-color: #333;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Netflix-like Homepage</h1>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <h1>Welcome to our Streaming Service</h1>
+            <p>Watch your favorite movies and TV shows anytime, anywhere.</p>
+            <a href="#" class="btn-primary">Get Started</a>
+        </div>
+    </div>
+
+    <div class="container features">
+        <div class="feature">
+            <h2>Unlimited Movies & TV Shows</h2>
+            <p>Explore a wide range of content, including exclusive titles.</p>
+        </div>
+        <div class="feature">
+            <h2>Watch on Any Device</h2>
+            <p>Stream on your phone, tablet, laptop, or TV.</p>
+        </div>
+        <div class="feature">
+            <h2>Cancel Anytime</h2>
+            <p>No contracts, no commitments. Cancel online anytime.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Netflix-like Homepage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
